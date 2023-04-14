@@ -1,6 +1,6 @@
 import streamlit as st
 #import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 
 # Define a function 'app()' which accepts 'car_df' as an input.
 def app(car_df):
