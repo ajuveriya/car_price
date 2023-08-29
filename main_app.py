@@ -75,7 +75,7 @@ if user_choice == "Home":
     home.app() 
 else:
    selected_page = pages_dict[user_choice]
-   # selected_page.app(final_cars_df) 
+   selected_page.app(final_cars_df) 
 # This 'app()' function is defined in all the 'home.py', data.py', 'plots.py' and 'predict.py' files. 
 # Whichever option out of "View Data", "Visualise Data" and "Predict" a user selects, that option gets stored in the 
 # 'selection' variable and the correspoding value to that key gets stored in the 'page' variable and then the 'app()'
