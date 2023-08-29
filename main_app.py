@@ -73,8 +73,8 @@ st.sidebar.title('Navigation')
 user_choice = st.sidebar.radio("Go to", tuple(pages_dict.keys()))
 if user_choice == "Home":
     home.app() 
-#else:
-   # selected_page = pages_dict[user_choice]
+else:
+   selected_page = pages_dict[user_choice]
    # selected_page.app(final_cars_df) 
 # This 'app()' function is defined in all the 'home.py', data.py', 'plots.py' and 'predict.py' files. 
 # Whichever option out of "View Data", "Visualise Data" and "Predict" a user selects, that option gets stored in the 
